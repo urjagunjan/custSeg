@@ -1,1 +1,21 @@
+# Ignore data files (Prevents uploading large files to GitHub)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.xlsx
 
+# Ignore Python environments and cache
+__pycache__/
+.venv/
+venv/
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS hidden files
+.DS_Store
+reports/
+*.joblib
